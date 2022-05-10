@@ -15,7 +15,7 @@ export function calculateWinner(squares) {
       //return squares[a];
       return {
         winner: squares[a],
-        winningSquares: lines[i],
+        winningSquares: lines[i], //ovde treba da bude [a, b, c] ali kad snimim stavi ga u () i ne radi mi kod
       };
     }
   }
